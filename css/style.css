@@ -1146,6 +1146,15 @@ h6 {
   transition: 0.3s ease 0s;
 }
 
+.slide-ed-programs__title {
+  -webkit-transition: 0s ease 0s;
+  transition: 0s ease 0s;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  opacity: 1;
+}
+
 .slide-ed-programs__title:not(:last-child) {
   margin-bottom: 0.625rem;
 }
@@ -1439,6 +1448,15 @@ h6 {
 .promotions__content {
   position: relative;
   z-index: 1;
+}
+
+.promotions__title {
+  -webkit-transition: 0s ease 0s;
+  transition: 0s ease 0s;
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+  opacity: 1;
 }
 
 .promotions__title:not(:last-child) {
